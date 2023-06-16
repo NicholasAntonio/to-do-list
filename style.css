@@ -54,7 +54,8 @@ body {
 .task-input input:focus,
 .task-input input.active {
   padding-left: 52px;
-  border: 2px solid #111;
+  border: 1px solid #111;
+  transition: .3s ease-in-out;
 }
 
 .task-input input::placeholder {
@@ -86,7 +87,10 @@ li {
 
 .filters span.active {
   color: #111;
-  border-bottom: 1px solid #111;
+  font-size: 17px;
+  font-weight: bolder;
+  transition: all .3s;
+  border-bottom: 2px solid #111;
 }
 
 .controls .clear-btn {
