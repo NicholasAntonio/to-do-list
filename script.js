@@ -29,8 +29,8 @@ function showTodo(filter) {
                     <div class="settings">
                         <i onclick="showMenu(this)" class='bx bx-dots-horizontal-rounded' ></i>
                         <ul class="task-menu">
-                            <li onclick='editTask(${id}, "${todo.name}")'><i class='bx bxs-edit-alt'></i>Edit</li>
-                            <li onclick='deleteTask(${id}, "${filter}")'><i class='bx bxs-trash' ></i></i>Delete</li>
+                            <li onclick='editTask(${id}, "${todo.name}")'><i class='bx bxs-edit-alt'></i>Editar</li>
+                            <li onclick='deleteTask(${id}, "${filter}")'><i class='bx bxs-trash' ></i></i>Deletar</li>
                         </ul>
                     </div>
                 </li>`;
